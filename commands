@@ -80,8 +80,9 @@ Get-Process provides a detailed view of all currently running processes, includi
 
 Get-Service allows the retrieval of information about the status of services on the machine, such as which services are running, stopped, or paused
 
+Get-NetTCPConnection displays current TCP connections, giving insights into both local and remote endpoints.
 
-
+Get-FileHash as a useful cmdlet for generating file hashes, which is particularly valuable in incident response, threat hunting, and malware analysis, as it helps verify file integrity and detect potential tampering.
 
 
 
