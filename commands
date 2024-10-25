@@ -14,5 +14,8 @@ set-location, cd
 
 new folder:  New-Item -Path ".\captain-cabin\captain-wardrobe" -ItemType "Directory"
 new file: New-Item -Path ".\captain-cabin\captain-wardrobe\boots.txt" -ItemType "File"
+new-item "./shadab" -itemtype "directory"
+
+remove-item, rmdir, del:   for removing
 
    
