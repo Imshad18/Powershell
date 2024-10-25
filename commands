@@ -4,3 +4,9 @@ Get-Help Get-Date  : info and usage
 Get-Help Get-Date -example : shows examples
 Get-Alias: gives hortcuts like cat > get-content
 Find-Module -Name "PowerShell*"      find modules 
+Install-Module -Name "PowerShellGet"
+
+
+
+
+
