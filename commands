@@ -7,6 +7,9 @@ Find-Module -Name "PowerShell*"      find modules
 Install-Module -Name "PowerShellGet"
 
 
+Navigating the File System and Working with Files
 
+Get-childitem , dir, ls 
+set-location, cd
 
 
