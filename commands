@@ -60,13 +60,17 @@ Get-ChildItem | Select-Object Name,Length
 
 
 Get-ChildItem | Sort-Object Length -Descending | Select-Object -First 1    : here we piped the ls to sort it descending and piped again to sleetc object to show first 1
+Get-ChildItem | Where-Object Length -gt 100 | Select-Object -Skip 2 -First 1   : skip 2 and display 3rd
+
+
+
+Similar to grep in unix and findstr in windows : Select-String
+Select-String -Path ".\captain-hat.txt" -Pattern "hat" 
 
 
 
 
-
-
-
+Get-Computerinfo : get all very detail info of the system
 
 
 
