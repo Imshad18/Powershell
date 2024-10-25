@@ -72,11 +72,13 @@ Select-String -Path ".\captain-hat.txt" -Pattern "hat"
 
 Get-Computerinfo : get all very detail info of the system
 
+Get-NetIPConfiguration : network info
 
+Get-NetIPAddress cmdlet will show details for all IP addresses configured on the system, including those that are not currently active.
 
+Get-Process provides a detailed view of all currently running processes, including CPU and memory usage, making it a powerful tool for monitoring and troubleshooting.
 
-
-
+Get-Service allows the retrieval of information about the status of services on the machine, such as which services are running, stopped, or paused
 
 
 
