@@ -34,6 +34,7 @@ new-item "./shadab" -itemtype "directory"
 
 remove-item, rmdir, del:   for removing
 
+Piping is a technique used in command-line environments that allows the output of one command to be used as the input for another. This creates a sequence of operations where the data flows from one command to the next. Represented by the | symbol
 
 Piping 
 
