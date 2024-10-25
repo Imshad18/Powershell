@@ -40,3 +40,9 @@ Piping is a technique used in command-line environments that allows the output o
    
 if you want to get a list of files in a directory and then sort them by size, you could use the following command in PowerShell:
 Get-ChildItem | Sort-Object Length
+
+
+
+search file with specidifc extension 
+Get-ChildItem | Where-Object -Property "Extension" -eq ".txt" 
+Get-ChildItem | Where-Object -Property Extension -eq .txt 
