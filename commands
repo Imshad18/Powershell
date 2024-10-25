@@ -46,3 +46,43 @@ Get-ChildItem | Sort-Object Length
 search file with specidifc extension 
 Get-ChildItem | Where-Object -Property "Extension" -eq ".txt" 
 Get-ChildItem | Where-Object -Property Extension -eq .txt 
+
+-ne: "not equal". This operator can be used to exclude objects from the results based on specified criteria.
+-gt: "greater than". This operator will filter only objects which exceed a specified value. It is important to note that this is a strict comparison, meaning that objects that are equal to the specified value will be excluded from the results.
+-ge: "greater than or equal to". This is the non-strict version of the previous operator. A combination of -gt and -eq.
+-lt: "less than". Like its counterpart, "greater than", this is a strict operator. It will include only objects which are strictly below a certain value.
+-le: "less than or equal to". Just like its counterpart -ge, this is the non-strict version of the previous operator. A combination of -lt and -eq.
+
+
+Get-ChildItem | Where-Object -Property "Name" -like "ship*"      to find files with ship in names of files
+
+Get-ChildItem | Select-Object Name,Length 
+
+
+Get-ChildItem | Sort-Object Length -Descending | Select-Object -First 1    : here we piped the ls to sort it descending and piped again to sleetc object to show first 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
