@@ -1,0 +1,6 @@
+Get-Command   : list of all available commands
+Get-Command -CommandType "Function"  : available command type fuctions
+Get-Help Get-Date  : info and usage
+Get-Help Get-Date -example : shows examples
+Get-Alias: gives hortcuts like cat > get-content
+
