@@ -2,7 +2,23 @@ Get-Command   : list of all available commands
 Get-Command -CommandType "Function"  : available command type fuctions
 Get-Help Get-Date  : info and usage
 Get-Help Get-Date -example : shows examples
-Get-Alias: gives hortcuts like cat > get-content
+Get-Alias: gives shortcuts like cat > get-content
+
+to find alian of a cmdlet use:  Get-Alias -Definition Copy-Item
+if there is none, you can create one by :  
+PS C:\Users\captain> set-alias shad copy-item
+PS C:\Users\captain> get-alias -definition Copy-Item
+
+CommandType     Name
+-----------     ----
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           shad -> Copy-Item
+
+
+
+
 Find-Module -Name "PowerShell*"      find modules 
 Install-Module -Name "PowerShellGet"
 
